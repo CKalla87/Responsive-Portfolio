@@ -51,7 +51,7 @@ body {
 
 #Image {
     float: left;
-    width: 200px;
+    width: 600px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
@@ -62,7 +62,7 @@ body {
     width: 100%;
     max-width: 270px;
     padding: 32px;
-    margin-bottom: 600px;
+    margin-bottom: auto;
     background: #fff;
     border: 2px solid #ddd;
     text-decoration: none;
@@ -96,7 +96,7 @@ body {
       margin-bottom: 15px;
       line-height: 60px;
       margin-top: -20px;
-  }
+      }
 
   h1,
   h2,
@@ -134,11 +134,8 @@ body {
     line-height: 18px;
 }
 
-/*Porfolio*/
-#Portfolio {
- background-color: white;
- margin-right: 40px;
-}
+
+
 
 .btn {
     margin-right: 15px;
@@ -155,6 +152,31 @@ body {
     margin-bottom: 150px;
     padding-right: 100px;
     border: 2px solid #ddd;
+}
+
+/*Porfolio*/
+#mainBody {
+    max-width: 650px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 0 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: 35px;
+    margin-top: auto;
+}
+
+#imageP {
+    height: 200px;
+    width: 200px;
+}
+
+.btn-primary {
+    margin-top: -75px;
+    margin-left: 45px;
+    width: auto;
+    
+    background-color: blue;
 }
 
 
