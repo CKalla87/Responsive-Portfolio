@@ -152,6 +152,7 @@ body {
     margin-bottom: 150px;
     padding-right: 100px;
     border: 2px solid #ddd;
+    padding-top: 20px;
 }
 
 /*Porfolio*/
@@ -168,15 +169,78 @@ body {
 
 #imageP {
     height: 200px;
-    width: 200px;
+    width: 262px;
+    margin-bottom: 20px;
 }
 
-.btn-primary {
-    margin-top: -75px;
-    margin-left: 45px;
-    width: auto;
+
+#bodyContent {
+    background: #fff;
+    margin: 1px;
+    float: left;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: 2px solid #ddd;
+    margin-top: 2px;
+}
+
+.label {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    height: 60px;
+    line-height: 60px;
+    width: calc(100% - 30px);
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    background-color: rgba(74, 170, 165, .7);
+}
+
+#mainContent {
+    padding-top: 20px;
+
+}
+
+#pSidebar {
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 32px;
+    margin-bottom: auto;
+    background: #fff;
+    border: 2px solid #ddd;
+    text-decoration: none;
+    margin-top: -49px;
+    margin-right: 158px;
+}
+
+.pContainer {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 1px;
     
-    background-color: blue;
+}
+
+fieldset {
+    width: 800px;
+}
+
+.btn {
+    margin-right: 50px;
+}
+
+legend {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 30px;
 }
 
 
